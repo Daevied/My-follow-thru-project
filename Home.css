@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+.First-header {
+  background-color: #000000;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px 0px 50px;
+
+}
+.First-header-sub {
+  display: flex;
+  align-items: center;  
+}
+
+.First-header-sub p {
+  margin-right: 3px;
+  font-size: 18px;
+}
+
+.First-header-sub p img{
+  background-color: white;
+  width: 28px;
+  border-radius: 10px;
+}
+.vertical-line {
+  display: inline-block;
+  border-left: 1px solid white;
+  height: 20px; /* Adjust height */
+  margin: 0 7px; /* Adjust spacing */
+}
+.Sub-btn {
+  font-size: 17px;
+  background-color: #252424;
+  color: white;
+  margin-right: 5px;
+  padding: 8px 17px 8px 17px;
+  border: 1px solid white;
+  border-radius: 6px;
+
+}
+
+.Sign-btn {
+  font-size: 17px;
+  background-color: #4C5FD5;
+  color: white;
+  padding: 8px 17px 8px 17px;
+  border: none;
+  border-radius: 6px;
+}
+
+.Second-header {
+  height: 50vh;
+  background-color: rgb(234, 214, 234);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.Second-header p {
+  font-size: 90px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: 70px;
+  max-width: 800px;
+  margin-bottom: 5px;
+  padding: 16px 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 27px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+}
+
+input[type="text"]:focus {
+  border-color: whitesmoke;
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+}
+
+
+main {
+  display: flex;
+  gap: 50px;
+  padding:80px 200px 70px 200px;
+  width: 100%;
+  height: 120vh;
+  
+}
+.First-part, .Second-part {
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  height: 100vh;
+}
+
+.numOne {
+  display: flex;
+}
+
+.Icons {
+  margin-right:8px;
+}
+
+a {
+  text-decoration: none;
+  color:
+}
+
+
+.footer {
+  display: flex;
+  gap: 1rem;
+  background-color: #000000;
+  color: white;
+  padding: 10px 50px 10px 50px;
+}
+
+.footer div {
+  flex: 1; /* Equal width by default */
+  padding: 1rem;
+}
+
+.footer .big {
+  flex: 2; /* This one is twice as big */
+  padding-left:30px ;
+}
+
+.footer div p {
+  line-height: 0.5;
+}
+
+.footer div p img{
+  background-color: white;
+  width: 28px;
+  border-radius: 10px;
+}
+
+.footer div p a {
+  color: white;
+
+}
+
+.footer div p a:hover {
+  text-decoration: underline;
+}
+
+
+
+
